@@ -1,5 +1,7 @@
+import Home from "./components/Pages/Home";
+
 function App() {
-  return <h1 className="text-3xl font-bold underline text-red-600">Hello</h1>;
+  return <Home />;
 }
 
 export default App;

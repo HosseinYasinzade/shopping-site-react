@@ -1,7 +1,13 @@
 import HeaderTop from "../HeaderTop/HeaderTop";
+import Hero from "../Hero/Hero";
 
 const Header = () => {
-  return <HeaderTop />;
+  return (
+    <>
+      <HeaderTop />
+      <Hero />
+    </>
+  );
 };
 
 export default Header;
