@@ -1,7 +1,13 @@
 import Header from "../Header/Header";
+import Card from "../Card/Card";
 
 const Home = () => {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <Card />
+    </>
+  );
 };
 
 export default Home;
