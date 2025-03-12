@@ -1,11 +1,11 @@
 import Header from "../Header/Header";
-import Card from "../Card/Card";
+import CardsList from "../Cards/CardsList";
 
 const Home = () => {
   return (
     <>
       <Header />
-      <Card />
+      <CardsList />
     </>
   );
 };
