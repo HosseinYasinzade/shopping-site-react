@@ -5,6 +5,7 @@
       "img_src": "images/banner.jpg",
       "title": "Nike Sports Shoes",
       "description": "A lightweight shoe for daily workouts.",
+      "price": 200,
       "off": "20%"
     },
     {
@@ -12,6 +13,7 @@
       "img_src": "images/banner.jpg",
       "title": "Classic Wristwatch",
       "description": "A stylish and durable watch with a leather strap.",
+      "price": 80,
       "off": "15%"
     },
     {
@@ -19,6 +21,7 @@
       "img_src": "images/banner.jpg",
       "title": "Travel Backpack",
       "description": "A spacious and durable backpack for long trips.",
+      "price": 120,
       "off": "10%"
     },
     {
@@ -26,6 +29,7 @@
       "img_src": "images/banner.jpg",
       "title": "Classic Wristwatch",
       "description": "A stylish and durable watch with a leather strap.",
+      "price": 200,
       "off": "15%"
     },
     {
@@ -33,6 +37,7 @@
       "img_src": "images/banner.jpg",
       "title": "Travel Backpack",
       "description": "A spacious and durable backpack for long trips.",
+      "price": 450,
       "off": "10%"
     },
     {
@@ -40,6 +45,7 @@
       "img_src": "images/banner.jpg",
       "title": "Nike Sports Shoes",
       "description": "A lightweight shoe for daily workouts.",
+      "price": 2000,
       "off": "20%"
     },
     {
@@ -47,6 +53,7 @@
       "img_src": "images/banner.jpg",
       "title": "Travel Backpack",
       "description": "A spacious and durable backpack for long trips.",
+      "price": 700,
       "off": "10%"
     },
     {
@@ -54,6 +61,7 @@
       "img_src": "images/banner.jpg",
       "title": "Nike Sports Shoes",
       "description": "A lightweight shoe for daily workouts.",
+      "price": 200,
       "off": "20%"
     }
   ]
