@@ -3,10 +3,11 @@ import axios from "axios";
 import Card from "../Card/Card";
 
 interface CardData {
-  id: number;
-  img_src: string;
+  id: string;
   title: string;
   description: string;
+  brand: string;
+  price: number;
   off: string;
 }
 
@@ -19,7 +20,6 @@ const CardsList = () => {
     axios
       .get("http://localhost:3000/cards")
       .then((response) => {
-        console.log(response);
         setCards(response.data);
         setLoading(false);
       })
@@ -43,9 +43,10 @@ const CardsList = () => {
         {cards.map((card) => (
           <Card
             key={card.id}
-            img_src={card.img_src}
+            brand={card.brand}
             title={card.title}
             description={card.description}
+            price={card.price}
             off={card.off}
           />
         ))}
